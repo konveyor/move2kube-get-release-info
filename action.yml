@@ -1,0 +1,19 @@
+name: get-release-info
+description: |
+  Github action for getting release information.  
+  Outputs useful information like current version, next version and next next version  
+  useful for calculating tag, commit, etc. to use for the next release.
+author: Harikrishnan Balagopal
+inputs:
+  owner:
+    required: false
+    description: Owner of the repo.
+  repo:
+    required: false
+    description: Name of the repo.
+  token:
+    required: false
+    description: Token to use while making Github API requests.
+runs:
+  using: "node12"
+  main: "dist/index.js"

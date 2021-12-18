@@ -856,9 +856,9 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
-"@vercel/ncc@^0.26.1":
-  version "0.26.2"
-  resolved "https://registry.yarnpkg.com/@vercel/ncc/-/ncc-0.26.2.tgz#d0799374eb8618e48cc0841c82793b5b670c9219"
+"@vercel/ncc@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@vercel/ncc/-/ncc-0.33.0.tgz#538d73ad4be1b259830d249d83f857432edd8967"
 
 abab@^2.0.0, abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"

@@ -2,9 +2,12 @@
 # yarn lockfile v1
 
 
-"@actions/core@^1.2.6":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.2.7.tgz#594f8c45b213f0146e4be7eda8ae5cf4e198e5ab"
+"@actions/core@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.10.0.tgz#44551c3c71163949a2f06e94d9ca2157a0cfac4f"
+  dependencies:
+    "@actions/http-client" "^2.0.1"
+    uuid "^8.3.2"
 
 "@actions/github@^4.0.0":
   version "4.0.0"
@@ -20,6 +23,12 @@
   resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-1.0.11.tgz#c58b12e9aa8b159ee39e7dd6cbd0e91d905633c0"
   dependencies:
     tunnel "0.0.6"
+
+"@actions/http-client@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-2.0.1.tgz#873f4ca98fe32f6839462a6f046332677322f99c"
+  dependencies:
+    tunnel "^0.0.6"
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -4884,7 +4893,7 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-tunnel@0.0.6:
+tunnel@0.0.6, tunnel@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
 
@@ -4990,6 +4999,10 @@ util.promisify@^1.0.0:
 uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"

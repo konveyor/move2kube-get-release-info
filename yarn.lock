@@ -616,6 +616,10 @@
     "@octokit/types" "^6.0.3"
     universal-user-agent "^6.0.0"
 
+"@octokit/openapi-types@^16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-16.0.0.tgz#d92838a6cd9fb4639ca875ddb3437f1045cc625e"
+
 "@octokit/openapi-types@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-6.0.0.tgz#7da8d7d5a72d3282c1a3ff9f951c8133a707480d"
@@ -672,11 +676,17 @@
     "@octokit/plugin-request-log" "^1.0.2"
     "@octokit/plugin-rest-endpoint-methods" "5.0.0"
 
-"@octokit/types@^6.0.3", "@octokit/types@^6.1.2", "@octokit/types@^6.11.0", "@octokit/types@^6.13.0", "@octokit/types@^6.7.1":
+"@octokit/types@^6.0.3", "@octokit/types@^6.11.0", "@octokit/types@^6.13.0", "@octokit/types@^6.7.1":
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/@octokit/types/-/types-6.13.0.tgz#779e5b7566c8dde68f2f6273861dd2f0409480d0"
   dependencies:
     "@octokit/openapi-types" "^6.0.0"
+
+"@octokit/types@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-8.2.0.tgz#de82a04bcb74b42128c12fcfb3d4606b9756f9d9"
+  dependencies:
+    "@octokit/openapi-types" "^16.0.0"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"

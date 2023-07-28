@@ -1,4 +1,6 @@
 # get-release-info
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Fget-release-info.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Fget-release-info?ref=badge_shield)
+
 
 Github action for getting release information.  
 Outputs useful information like current version, next version and next next version  
@@ -45,3 +47,7 @@ steps:
   next_next_release_is_minor: boolean;
 };
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Fget-release-info.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Fget-release-info?ref=badge_large)
